@@ -1,4 +1,4 @@
-                          PLAY NINE
+PLAY NINE
 
 Game Rule:
 
