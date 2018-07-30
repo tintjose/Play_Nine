@@ -7,6 +7,7 @@ import DoneFrame from './doneframe';
 import _ from 'lodash';
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import './game.css';
 
 var possibleCombinationSum = function(arr, n) {
   if (arr.indexOf(n) >= 0) { return true; }
@@ -102,9 +103,9 @@ resetGame=()=>{
 };
         render(){
           return (
-           <div className="container">
+           <div className="container maindiv">
            <hr />
-              <h3>Play Nine</h3>
+              <h3 className="heading">Play Nine</h3>
               <br />
               <div className="row">
 

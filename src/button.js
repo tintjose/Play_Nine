@@ -20,7 +20,7 @@ const Button=(props)=>{
 
     default:
       button=
-      <button className="btn btn-lg btn-info"
+      <button className="btn btn-lg btn-warning"
       onClick={props.checkAnswer}
       disabled={props.selectedNumbers.length===0}>
       =
