@@ -5,7 +5,7 @@ import Game from './game';
 
 const Numbers=(props)=>{
   const numberClassName=(number)=>{
-    if(props.selectedNumbers.indexOf(number)>=0){
+    if(props.usedNumbers.indexOf(number)>=0){
       return 'used';
     }
     if(props.selectedNumbers.indexOf(number)>=0){
